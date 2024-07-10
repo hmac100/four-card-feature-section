@@ -69,14 +69,16 @@ h1 {
 h2 {
 	font-size: 1.3rem;
 }
+
 .card {
 	display: flex;
 	flex-direction: column;
 	box-shadow: hsla(234, 12%, 34%, 0.2) 0px 8px 24px;
 	background-color: hsl(0, 0%, 100%);
 	padding: 2rem;
-	border-radius: 0.5em;
+	border-radius: 0.3rem;
 	gap: 1rem;
+	overflow: hidden;
 }
 
 p.card-text {
@@ -91,20 +93,21 @@ img {
 	align-self: flex-end;
 }
 .supervisor {
-	border-top: 0.25rem solid var(--primary-Cyan);
+	border-top: 0.3rem solid var(--primary-Cyan);
 	max-height: 50%;
 	align-self: center;
-	margin-bottom: rem;
+	border-radius: 0.3rem;
 }
 .teambuilder {
-	border-top: 0.25rem solid var(--primary-Red);
+	border-top: 0.3rem solid var(--primary-Red);
 }
 .karma {
-	border-top: 0.25rem solid var(--primary-Orange);
+	border-top: 0.3rem solid var(--primary-Orange);
+
 	margin-top: 2rem;
 }
 .calculator {
-	border-top: 0.25rem solid var(--primary-Blue);
+	border-top: 0.3rem solid var(--primary-Blue);
 	max-height: 50%;
 	align-self: center;
 }
