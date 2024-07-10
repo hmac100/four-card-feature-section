@@ -38,12 +38,11 @@ span {
 }
 
 main {
-	max-width: 80%;
-	margin-top: 4rem;
-	/* outline: 1px solid black; */
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	gap: 2rem;
+	max-width: 80%;
+	margin-top: 4rem;
 	line-height: 1.4rem;
 }
 
@@ -110,4 +109,25 @@ img {
 	border-top: 0.3rem solid var(--primary-Blue);
 	max-height: 50%;
 	align-self: center;
+}
+
+/* ----------------MOBILE------------------------ */
+
+@media only screen and (max-width: 375px) {
+	h1 {
+		font-size: 1.5rem;
+	}
+	p {
+		line-height: 1.5rem;
+		max-width: 88%;
+		font-size: 0.9rem;
+	}
+	main {
+		display: flex;
+		flex-direction: column;
+		gap: 2rem;
+		max-width: 84%;
+		margin: 4rem 0rem;
+		line-height: 1.4rem;
+	}
 }
